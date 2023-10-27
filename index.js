@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {  // Chargement du dom
     document.querySelector('#contactForm')
         .addEventListener("submit", async (e) => {
             e.preventDefault() // suppression du comportement par defaut de l'evenement submit
-
+            console.log('clicks')
             const data = {
                 firstname: document.querySelector("#firstname").value,
                 lastname: document.querySelector("#lastname").value,
