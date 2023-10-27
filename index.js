@@ -1,6 +1,3 @@
-const { default: axios } = require("axios");
-
-
 document.addEventListener('DOMContentLoaded', () => {  // Chargement du dom 
     console.log('Document Loaded');
 
